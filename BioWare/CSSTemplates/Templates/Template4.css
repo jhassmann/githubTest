@@ -1,0 +1,88 @@
+body {
+   background-color: #9d8d8f;
+   background-image: url("../../Images/Template4Backdrop.jpg");  /*Can add background image rather than solid color*/
+}
+
+
+/*-------------------------------Left Side of Header-------------------------------*/
+
+
+#headerContent {
+   background-color: #faed26;
+   border-bottom: 3px solid #46344e;
+   border-left: 3px solid #46344e;
+   color: White;
+}
+#headerContent h1 {
+   font-family: Arial;
+   color: White;
+   border-bottom: 2px ridge #46344e;
+}
+.greeting {
+   font-family: Monotype Corsiva;
+}
+
+/*-------------------------------Right Side of Header-------------------------------*/
+
+
+.headerPicBox {
+   border: 1px solid Black;
+   border: 1px solid Black;
+}
+.headerPicRectangle {
+   border: 1px solid Black;
+}
+
+
+/*-------------------------------Columns After Header-------------------------------*/
+
+
+.longColumn {
+   border-bottom: 2px solid #faed26;
+   border-left: 3px solid #faed26;
+   background-color: #9b786f;
+}
+.longColumn h2 {
+   font-family: Georgia;
+   color: White;  /*White looks nice but you can change it*/
+}
+.longColumn p {
+   color: White;
+}
+
+
+/*-------------------------------Video Background Container-------------------------------*/
+
+
+#videoBackgroundContainer {
+   background-color: rgba(250, 236, 38, 0);
+}
+
+
+/*-------------------------------BestSelling Products Section-------------------------------*/
+
+
+#bestSellingProductsBackground {
+   background-color: #faed26;
+}
+.productRow h2 {
+   color: #46344e;
+}
+/*Sets the border properties of the product info box*/
+.productInfoBox {
+   border-right: 4px ridge #46344e;
+   border-left: 4px ridge #46344e;
+}
+
+
+/*-------------------------------InfoBox Sizing-------------------------------*/
+
+
+.productInfoBox h2 {
+   border-bottom: 2px solid #46344e;
+}
+.productInfoBox p {
+   border-bottom: 3px ridge #5a5560;
+   border-left: 3px ridge #5a5560;
+   color: #46344e;  /*Can change but White looks nice*/
+}

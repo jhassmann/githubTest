@@ -1,0 +1,89 @@
+body {
+   background-color: darkblue;
+   background-image: url("../../Images/backdrop.jpg");
+}
+
+
+/*-------------------------------Left Side of Header-------------------------------*/
+
+
+#headerContent {
+   background-color: rgba(11, 12, 16, 0.5);
+   border-bottom: 3px solid #66fcf1;
+   border-left: 3px solid #66fcf1;
+   color: Whitesmoke;
+}
+#headerContent h1 {
+   font-family: Arial;
+   color: #66fcf1;
+   border-bottom: 2px ridge #66fcf1;
+}
+.greeting {
+   font-family: Monotype Corsiva;
+}
+
+/*-------------------------------Right Side of Header-------------------------------*/
+
+
+.headerPicBox {
+   border: 1px solid #66fcf1;
+   border: 1px solid #66fcf1;
+}
+.headerPicRectangle {
+   border: 1px solid #66fcf1;
+}
+
+
+/*-------------------------------Columns After Header-------------------------------*/
+
+
+.longColumn {
+   border-bottom: 2px solid #66fcf1;
+   border-left: 3px solid #66fcf1;
+   background-color: rgba(31, 40, 51, 0.822);
+}
+.longColumn h2 {
+   font-family: Georgia;
+   color: White;
+}
+.longColumn p {
+   color: White;
+}
+
+
+/*-------------------------------Video Background Container-------------------------------*/
+
+
+#videoBackgroundContainer {
+   background-color: rgba(0, 0, 255, 0);
+}
+
+
+/*-------------------------------BestSelling Products Section-------------------------------*/
+
+
+#bestSellingProductsBackground {
+   background-color: #1f2833;
+}
+.productRow h2 {
+   color: #66fcf1;
+}
+/*Sets the border properties of the product info box*/
+.productInfoBox {
+   border-right: 4px ridge #66fcf1;
+   border-left: 4px ridge #66fcf1;
+}
+
+
+/*-------------------------------InfoBox Sizing-------------------------------*/
+
+
+.productInfoBox h2 {
+   border-bottom: 2px solid #66fcf1;
+}
+.productInfoBox p {
+   border-bottom: 3px ridge #45a29e;
+   border-left: 3px ridge #45a29e;
+   color: White;
+}
+

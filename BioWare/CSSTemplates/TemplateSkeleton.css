@@ -1,0 +1,88 @@
+body {
+   background-color:
+   background-image: url("../..");  /*Can add background image rather than solid color*/
+}
+
+
+/*-------------------------------Left Side of Header-------------------------------*/
+
+
+#headerContent {
+   background-color: 
+   border-bottom: 3px solid 
+   border-left: 3px solid 
+   color: 
+}
+#headerContent h1 {
+   font-family: Arial;
+   color: 
+   border-bottom: 2px ridge
+}
+.greeting {
+   font-family: Monotype Corsiva;
+}
+
+/*-------------------------------Right Side of Header-------------------------------*/
+
+
+.headerPicBox {
+   border: 1px solid 
+   border: 1px solid 
+}
+.headerPicRectangle {
+   border: 1px solid 
+}
+
+
+/*-------------------------------Columns After Header-------------------------------*/
+
+
+.longColumn {
+   border-bottom: 2px solid 
+   border-left: 3px solid 
+   background-color: 
+}
+.longColumn h2 {
+   font-family: Georgia;
+   color: White;  /*White looks nice but you can change it*/
+}
+.longColumn p {
+   color: White;
+}
+
+
+/*-------------------------------Video Background Container-------------------------------*/
+
+
+#videoBackgroundContainer {
+   background-color: 
+}
+
+
+/*-------------------------------BestSelling Products Section-------------------------------*/
+
+
+#bestSellingProductsBackground {
+   background-color: 
+}
+.productRow h2 {
+   color: 
+}
+/*Sets the border properties of the product info box*/
+.productInfoBox {
+   border-right: 4px ridge 
+   border-left: 4px ridge 
+}
+
+
+/*-------------------------------InfoBox Sizing-------------------------------*/
+
+
+.productInfoBox h2 {
+   border-bottom: 2px solid 
+}
+.productInfoBox p {
+   border-bottom: 3px ridge 
+   border-left: 3px ridge 
+   color: White;  /*Can change but White looks nice*/
+}

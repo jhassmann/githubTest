@@ -1,0 +1,353 @@
+/*Main header sizing*/
+#mainHeader {
+   width: 1500px;
+   height: 400px;
+}
+body {
+   background-color: #950740;
+   background-image: url("../Images/Template0Backdrop.jpg");
+}
+
+
+/*---------------------------------Left Side of Header---------------------------------*/
+
+
+#left {
+   width: 750px;
+   height: 400px;
+   float: left;
+}
+#headerContent {
+   width: 80%;
+   height: 65%;
+   margin-left: 10%;
+   margin-top: 60px;
+   padding-top: 20px;
+   border-top-left-radius: 250px 250px;
+   border-top-right-radius: 100px 150px;
+   border-bottom-right-radius: 250px 250px;
+   border-bottom-left-radius: 100px 150px;
+   background-color: rgba(227, 175, 188, 0.5);
+   border-bottom: 3px solid Red;
+   border-left: 3px solid rgba(255, 0, 0, 0.6);
+   color: whitesmoke;
+}
+#headerContent h1 {
+   font-size: 40px;
+   font-family: Arial; 
+   text-align: left;
+   width: 70%;
+   padding-left: 40px;
+   height: 50px;
+   letter-spacing: 0.6em;
+   font-style: italic;
+   margin-left: 16%;
+   margin-top: 0px;
+   color: White;
+   border-bottom-left-radius: 40px 30px;
+   border-bottom-right-radius: 150px 20px;
+   border-bottom: 2px ridge #f0efee;
+}
+.greeting {
+   width: 40%; 
+   margin-left: 30%;
+   text-align: center;
+   font-size: 20px;
+   font-family: Monotype Corsiva;
+}
+#headerDescription {
+   width: 60%;
+   height: 150px;
+   margin-left: 20%;
+   text-align: center;
+   margin-top: 20px;
+   line-height: 1.5em;
+}
+
+
+/*---------------------------------Right Side of Header---------------------------------*/
+
+
+#right {
+   width: 750px;
+   height: 400px;
+   float: left;
+}
+.headerPicBox {
+   border: 1px solid Black; 
+   width: 365px;
+   height: 190px;
+   float: left;
+   margin-left: 5px;
+   margin-top: 5px;
+   border: 1px solid Black;
+}
+.headerPicRectangle {
+   width: 735px;
+   height: 190px;
+   float: left;
+   margin-left: 6px;
+   margin-top: 5px;
+   border: 1px solid Black;
+}
+/*Border measurements for header images*/
+.headerPicBox, .headerPicRectangle, #topRightHeaderImg, #topLeftHeaderImg, #bottomHeaderImg {
+   border-top-right-radius: 50px;
+   border-bottom-left-radius: 30px;
+   border-top-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+}
+
+
+/*---------------------------------Columns After Header---------------------------------*/
+
+
+#firstColumnInfo {
+   width: 1502px;
+   height: 300px;
+}
+.longColumn {
+   width: 458px;
+   height: 270px;
+   float: left;
+   margin: 10px;
+   border-top-right-radius: 800px 100px;
+   border-top-left-radius: 800px 100px;
+   border-bottom-left-radius: 800px 100px;
+   border-bottom-right-radius: 800px 100px;
+   border-bottom: 2px solid Black;
+   border-left: 3px solid Black;
+   background-color: #9a1750;
+}
+.longColumn h2 {
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 0.8em;
+   font-weight: lighter;
+   font-family: Georgia;
+   color: White;
+}
+.longColumn p {
+   width: 400px;
+   height: 180px;
+   margin-left: 29px;
+   text-align: center;
+   line-height: 1.5em;
+   font-size: 20px;
+   color: White;
+}
+
+
+/*~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~= Video Background Section =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~*/
+
+/*---------------------------------Structure of Video Background (Work within the videoOverLap)---------------------------------*/
+
+
+#videoBackgroundContainer {
+   width: 1527px;
+   height: 860px;
+   margin-left: -15px;
+   position: relative;
+   background-color: Lightgray;
+}
+/*What the text goes in*/
+#videoOverlap {
+   width: 1495px;
+   height: 830px;
+   position: absolute;
+   top: 15px;
+   left: 20px;
+}
+video.backgroundVideo {
+   width: 1527px;
+}
+
+
+/*---------------------------------Text Column Blocks (To make float work properly)---------------------------------*/
+
+
+#topLeft {
+   width: 1000px;
+   float: left;
+}
+#topRight {
+   width: 490px;
+   height: 558px;
+   float: left;
+}
+#bottom {
+   width: 1490px;
+   height: 280px;
+   margin: 0px;
+   float: left;
+}
+/*Styling for text column sections*/
+#topLeft h2, #topRight h2, #bottom h2 {
+   color: White;
+   margin-left: 20px;
+}
+#videoOverlap p{
+   color: White;
+   margin-left: 30px;
+   line-height: 1.5em;
+   font-family: Times;
+}
+
+
+/*---------------------------------Columns Within VideoOverLap---------------------------------*/
+
+
+.videoColumnLong {
+   background-color: rgba(0, 0, 0, 0.6);
+   width: 1475px;
+   height: 260px;
+   margin: 10px;
+   float: left;
+}
+.videoColumnMedium {
+   background-color: rgba(0, 0, 0, 0.6); 
+   width: 980px;
+   height: 260px;
+   margin: 10px;
+   float: left;
+}
+.videoColumnShort {
+   background-color: rgba(0, 0, 0, 0.6); 
+   width: 480px;
+   height: 260px;
+   margin: 9px;
+   float: left;
+}
+.videoColumnTall {
+   background-color: rgba(0, 0, 0, 0.6);
+   width: 470px;
+   height: 528px;
+   margin-top: 10px;
+   padding-top: 10px;
+   margin-left: 10px;
+}
+
+
+/*---------------------------------Text Within Columns Within VideoOverLap---------------------------------*/
+
+
+.videoColumnMedium p {
+   width: 900px;
+   height: 170px;
+   line-height: 1.8em;
+   font-size: 25px;
+}
+/*Left & Right side of short columns*/
+.videoColumnShort#leftSide p {
+   width: 420px;
+   height: 170px;
+   font-size: 22px;
+   line-height: 1.6em;
+}
+.videoColumnShort#rightSide p {
+   width: 420px;
+   height: 170px;
+   font-size: 18px;
+}
+.videoColumnLong p {
+   width: 1400px;
+   height: 170px;
+   font-size: 22px;
+   line-height: 1.8em;
+}
+.videoColumnTall p {
+   width: 410px;
+   height: 210px;
+   font-size: 18px;
+   line-height: 1.5em;
+   text-indent: 40px;
+}
+.videoColumnTall h2 {
+   margin-top: 10px;
+}
+
+/*~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~= Video Background Section End =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~*/
+
+
+/*---------------------------------Best Selling Products Section---------------------------------*/
+
+
+
+#bestSellingProductsBackground {
+   background-color: #ee4c7c;
+   width: 1522px;
+   margin-top: -5px;
+   margin-left: -10px;
+}
+/*Measurements for 3 Best Selling Products rows*/
+.productRow {
+   width: 1500px;
+   height: 380px;
+   margin-top: 5px;
+}
+.productRow h2 {
+   color: White; 
+}
+/*Sets the measurements of the info box & img box for products*/
+.productInfoBox, .productImg {
+   width: 710px;
+   height: 340px;
+   float: left;
+   margin: 20px;
+}
+/*Sets the border properties of the product info box*/
+.productInfoBox {
+   border-top-left-radius: 20px 40px;
+   border-bottom-left-radius: 20px 40px;
+   border-top-right-radius: 20px 40px;
+   border-bottom-right-radius: 20px 40px;
+   border-right: 4px ridge White;
+   border-left: 4px ridge White;
+   width: 700px;
+}
+
+
+/*---------------------------------InfoBox Sizing for Best Selling Products---------------------------------*/
+
+
+.productInfoBox h2 {
+   width: 200px;
+   height: 32px;
+   letter-spacing: 0.2em;
+   border-bottom: 2px solid White;
+   margin-left: 30px;
+   padding-left: 20px;
+   border-bottom-left-radius: 30px 20px;
+   border-bottom-right-radius: 150px 15px;
+   border-top-right-radius: 70px 20px;
+   border-top-left-radius: 30px 20px;
+}
+.productInfoBox p {
+   width: 580px;
+   height: 190px;
+   margin-left: 45px;
+   padding: 20px;
+   font-size: 20px;
+   line-height: 1.8em;
+   text-align: center;
+   border-bottom: 2px ridge Black;
+   border-left: 1px ridge Black;
+   border-bottom-left-radius: 60px 40px;
+   border-bottom-right-radius: 60px 40px;
+   border-top-left-radius: 60px 40px;
+}
+
+
+/*---------------------------------Image Sizing for Best Selling Products---------------------------------*/
+
+
+#product_1, #product_2, #product_3 {
+   width: 710px;
+   height: 340px;
+   border-radius: 20px 0px 20px 0px;
+   visibility: visible;
+}
+
+
+
+

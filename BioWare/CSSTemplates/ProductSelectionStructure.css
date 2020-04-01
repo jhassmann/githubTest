@@ -1,0 +1,25 @@
+#testSection {
+   background-color: rgba(0, 0, 0, 0.8);
+   width: 1536px;
+   height: 730px;
+   margin-left: -8px;
+   overflow: auto;
+}
+.productSelection {
+   margin: 50px;
+   width: 50px;
+   height: 50px;
+   border-radius: 50px;
+}
+#product_1 {
+   background-color: Blue;
+   border: 2px solid darkblue;
+}
+#product_2 {
+   background-color: lime;
+   border: 2px solid Green;
+}
+#product_3 {
+   background-color: Pink;
+   border: 2px solid rgb(145, 109, 115);
+}

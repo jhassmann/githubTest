@@ -1,0 +1,76 @@
+#buttonNavRibbon {
+   position: fixed;
+   width: 270px;
+   height: 36px;
+   background-color: rgba(255, 255, 255, 0.774);
+   border-radius: 10px;
+   border: 1px solid Black;
+   z-index: 2;
+}
+#buttonNavRibbon button {
+   width: 30px;
+   height: 30px;
+   border-radius: 30px;
+   margin-top: 3px;
+}
+
+
+/*-------------------------------Button Coloring (Update for new Templates)-------------------------------*/
+
+
+#redButton {
+   background-color: #ee4c7c;
+   border: 2px solid #9a1750;
+   margin-left: 5px;
+}
+#blueButton {
+   background-color: #66fcf1; 
+   border: 2px solid Black;
+}
+#template2Button {
+   background-color: #5ab9ea;
+   border: 2px solid #8860d0;
+}
+#template3Button {
+   background-color: #86c232;
+   border: 2px solid #474b4f;
+}
+#template4Button {
+   background-color: #faed26;
+   border: 2px solid #9b786f;
+}
+/*This is for the home page button, going to the home page*/
+#homePage {
+   background-color: Blue;
+   border: 2px solid darkblue;
+   width: 20px;
+   height: 20px;
+   border-radius: 20px;
+   margin-top: 5px;
+   margin-left: 5px;
+   float: left;
+}
+/*This is for the sales page button, going to the page*/
+#salesPage {
+   background-color: Orange;
+   border: 2px solid rgb(189, 105, 0);
+   width: 20px;
+   height: 20px;
+   border-radius: 20px;
+   margin-top: 5px;
+   margin-left: 5px;
+   float: left;
+}
+/*This is for the product selection page, going to the page*/
+#productSelectionPage {
+   background-color: Lime;
+   border: 2px solid Green;
+   width: 20px;
+   height: 20px;
+   border-radius: 20px;
+   margin-top: 5px;
+   margin-left: 5px;
+   float: left;
+}
+
+ul#purchaseList li.removeProduct {}

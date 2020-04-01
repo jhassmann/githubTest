@@ -1,0 +1,60 @@
+
+#container {
+   width: 1600px;
+   height: 900px;
+   margin-left: -10px;
+   margin-top: -40px;
+   position: absolute;
+   position: relative;
+}
+#introheader {
+   width: 400px;
+   height: 70px;
+   left: 550px;
+   top: 320px;
+   border: 4px outset rgba(255, 0, 0, 0.5);
+   position: absolute;
+}
+#introheader p#first {
+   font-size: 30px;
+   color: Red;
+   margin-top: 15px;
+   text-align: center;
+}
+#introheader p#second {
+   font-size: 18px;
+   color: rgba(255, 0, 0, 0.8);
+   text-align: center;
+   margin-top: 50px;
+   margin-left: 50px;
+   height: 50px;
+   width: 300px;
+   border-left: 2px solid rgba(255, 0, 0, 0.8);
+   border-right: 2px solid rgba(255, 0, 0, 0.8);
+}
+#introheader p#third {
+   font-size: 22px;
+   color: Red;
+   text-align: center;
+   height: 30px;
+   width: 200px;
+   margin-left: 96px;
+   margin-top: 30px;
+   border: 2px outset DarkRed;
+}
+a {
+   text-decoration: none;
+}
+a:link {
+   color: rgba(255, 0, 0, 0.8);
+}
+a:hover {
+   color: rgba(255, 0, 0, 0.6);
+}
+a:active {
+   color: Red;
+}
+
+video {
+   width: 1600px;
+}

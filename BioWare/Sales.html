@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Sales</title>
+   <link href="CSSTemplates/SalesStructure.css" type="text/css" rel="stylesheet" />
+   <link href="CSSTemplates/SalesTemplates/SalesTemplate1.css" type="text/css" rel="stylesheet" />
+   <link href="CSSTemplates/Buttons.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+   <!--Button Navigation Beginning-->
+   <div id="buttonNavRibbon">
+      <button id="redButton"></button>
+      <button id="blueButton"></button>
+      <button id="template2Button"></button>
+      <button id="template3Button"></button>
+      <button id="template4Button"></button>
+      <a href="Home.html"><div id="homePage"></div></a>
+      <a href="Sales.html"><div id="salesPage"></div></a>
+      <a href="ProductSelection.html"><div id="productSelectionPage"></div></a>
+   </div>
+   <!--Button Navigation End-->
+
+<!--Container For Product Selection-->
+   <div id="productSelectionContainer">
+      <div id="productSelectionInnerContainer">
+
+         <!--Products-->
+         <div index="0" id="product1" class="productBox">
+            <h1>Shiny Red</h1>
+            <img src="Images/ProductTemplateImages/ShinyRed.JPG" title="" alt="">
+            <p class="cost">$5.99</p>
+            <p class="description">This product is quite gorgeous. It has been exqusitely designed by our FINEST craftsmen. This product is quite gorgeous. It has been exqusitely designed by our FINEST craftsmen.</p>
+         </div>
+         <div index="1" id="product2" class="productBox">
+            <h1>Deep Blue</h1>
+            <img src="Images/ProductTemplateImages/DeepBlue.JPG" title="" alt="">
+            <p class="cost">$15.99</p>
+            <p class="description">This product is quite gorgeous. It has been exqusitely designed by our FINEST craftsmen. This product is quite gorgeous. It has been exqusitely designed by our FINEST craftsmen.</p>
+         </div>
+         <div index="2" id="product3" class="productBox">
+            <h1>Lavender</h1>
+            <img src="Images/ProductTemplateImages/Lavender.JPG" title="" alt="">
+            <p class="cost">$8.99</p>
+            <p class="description">This product is quite gorgeous. It has been exqusitely designed by our FINEST craftsmen. This product is quite gorgeous. It has been exqusitely designed by our FINEST craftsmen.</p>
+         </div>
+         <div index="3" id="product4" class="productBox">
+            <h1>Calm Green</h1>
+            <img src="Images/ProductTemplateImages/CalmGreen.JPG" title="" alt="">
+            <p class="cost">$12.99</p>
+            <p class="description">This product is quite gorgeous. It has been exqusitely designed by our FINEST craftsmen. This product is quite gorgeous. It has been exqusitely designed by our FINEST craftsmen.</p>
+         </div>
+         <div index="4" id="product5" class="productBox">
+            <h1>Golden</h1>
+            <img src="Images/ProductTemplateImages/Golden.JPG" title="" alt="">
+            <p class="cost">$29.99</p>
+            <p class="description">This product is quite gorgeous. It has been exqusitely designed by our FINEST craftsmen. This product is quite gorgeous. It has been exqusitely designed by our FINEST craftsmen.</p>
+         </div>
+         <div index="5" id="product6" class="productBox">
+            <h1>Item6</h1>
+            <img src="Images/CherriesPic3.jpg" title="" alt="">
+            <p class="cost">$12.99</p>
+            <p class="description">This product is quite gorgeous. It has been exqusitely designed by our FINEST craftsmen. This product is quite gorgeous. It has been exqusitely designed by our FINEST craftsmen.</p>
+         </div>
+         <div index="6" id="product7" class="productBox">
+            <h1>Item7</h1>
+            <img src="Images/CherriesPic3.jpg" title="" alt="">
+            <p class="cost">$12.99</p>
+            <p class="description">This product is quite gorgeous. It has been exqusitely designed by our FINEST craftsmen. This product is quite gorgeous. It has been exqusitely designed by our FINEST craftsmen.</p>
+         </div>
+         <div index="7" id="product8" class="productBox">
+            <h1>Item8</h1>
+            <img src="Images/CherriesPic3.jpg" title="" alt="">
+            <p class="cost">$12.99</p>
+            <p class="description">This product is quite gorgeous. It has been exqusitely designed by our FINEST craftsmen. This product is quite gorgeous. It has been exqusitely designed by our FINEST craftsmen.</p>
+         </div>
+         <div index="8" id="product9" class="productBox">
+            <h1>item9</h1>
+            <img src="Images/CherriesPic3.jpg" title="" alt="">
+            <p class="cost">$12.99</p>
+            <p class="description">This product is quite gorgeous. It has been exqusitely designed by our FINEST craftsmen. This product is quite gorgeous. It has been exqusitely designed by our FINEST craftsmen.</p>
+         </div>
+         <div index="9" id="product10" class="productBox">
+            <h1>Item10</h1>
+            <img src="Images/CherriesPic3.jpg" title="" alt="">
+            <p class="cost">$12.99</p>
+            <p class="description">This product is quite gorgeous. It has been exqusitely designed by our FINEST craftsmen. This product is quite gorgeous. It has been exqusitely designed by our FINEST craftsmen.</p>
+         </div>
+         
+      </div>
+   </div>
+
+<!--2nd Container for LEFT & RIGHT Sides-->
+   <div id="containerLeftAndRight">
+
+   <!--LEFT Side Beginning-->
+
+   <!--List Section Headings-->
+      <div id="itemListLeft">
+         <div id="purchasesHeader">
+            <h2 id="purchaseProduct" class="purchasesHeading">Product</h2>
+            <h2 id="purchaseDescription" class="purchasesHeading">Description</h2>
+            <h2 id="purchasePrice" class="purchasesHeading">Price</h2>
+         </div>
+
+         <ul id="purchaseList"></ul>
+
+         <!--<div id="testBox"></div>-->
+      </div>
+   <!--LEFT Side End-->
+
+
+      <!--RIGHT Side Beginning-->
+      <div id="totalCostAndCheckout">
+         <div id="analytics">
+            <h2>Analytics: </h2>
+            <p id="itemAmountHeader">Amount of items:</p>
+            <p id="itemAmount"><span id="boxNumber">0</span></p>
+            <div id="itemNumberBoxes"></div>
+         </div>
+         <div id="totalCostSection">
+            <div id="top"><h2>Total Cost: </h2>
+            <input type="button" id="totalCostBtn"></div>
+            <p id="itemCosts"></p>
+            <p id="totalCost">TOTAL:</p>
+         </div>
+      </div>
+      <div id="headerBanner">
+         <div id="headerContent">
+            <h1>BioWare</h1>
+            <div class="greeting">Welcome!</div>
+            <p id="headerDescription">It's hard to look away when faced with a minimalist yet striking design such as this. The dark smoky black background coupled with a striking electric blue make this a winning color scheme, useful for a variety of projects.</p>
+         </div>
+      </div>
+      <!--RIGHT Side End-->
+   </div>
+<!--Container for LEFT & RIGHT End-->
+
+
+
+
+
+
+</body>
+<script src="JS/jquery-3.4.1.min.js"></script>
+<script src="JS/Greeting.js"></script>
+<script src="JS/Purchases.js"></script>
+</html>
